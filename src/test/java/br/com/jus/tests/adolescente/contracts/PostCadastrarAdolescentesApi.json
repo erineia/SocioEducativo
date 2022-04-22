@@ -1,0 +1,1970 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "mensagemUsuario": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "dataHora": {
+      "type": "string"
+    },
+    "dados": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                },
+                "certidaoNascimento": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "cartorio": {
+                      "type": "string"
+                    },
+                    "livro": {
+                      "type": "string"
+                    },
+                    "folha": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "cartorio",
+                    "livro",
+                    "folha"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero",
+                "rg",
+                "certidaoNascimento"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                },
+                "certidaoNascimento": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "cartorio": {
+                      "type": "string"
+                    },
+                    "livro": {
+                      "type": "string"
+                    },
+                    "folha": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "cartorio",
+                    "livro",
+                    "folha"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero",
+                "cpf",
+                "rg",
+                "certidaoNascimento"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao"
+                  ]
+                },
+                "certidaoNascimento": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "cartorio": {
+                      "type": "string"
+                    },
+                    "livro": {
+                      "type": "string"
+                    },
+                    "folha": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "cartorio",
+                    "livro",
+                    "folha"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg",
+                "certidaoNascimento"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                },
+                "certidaoNascimento": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "cartorio": {
+                      "type": "string"
+                    },
+                    "livro": {
+                      "type": "string"
+                    },
+                    "folha": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "cartorio",
+                    "livro",
+                    "folha"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "possuiNomeSocial",
+                "cpf",
+                "rg",
+                "certidaoNascimento"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "identificador": {
+                  "type": "string"
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    },
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ]
+                },
+                "certidaoNascimento": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    },
+                    "cartorio": {
+                      "type": "string"
+                    },
+                    "livro": {
+                      "type": "string"
+                    },
+                    "folha": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero",
+                    "cartorio",
+                    "livro",
+                    "folha"
+                  ]
+                }
+              },
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero",
+                "cpf",
+                "rg",
+                "certidaoNascimento"
+              ]
+            }
+          ]
+        },
+        "pageable": {
+          "type": "object",
+          "properties": {
+            "sort": {
+              "type": "object",
+              "properties": {
+                "sorted": {
+                  "type": "boolean"
+                },
+                "unsorted": {
+                  "type": "boolean"
+                },
+                "empty": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "sorted",
+                "unsorted",
+                "empty"
+              ]
+            },
+            "offset": {
+              "type": "integer"
+            },
+            "pageNumber": {
+              "type": "integer"
+            },
+            "pageSize": {
+              "type": "integer"
+            },
+            "paged": {
+              "type": "boolean"
+            },
+            "unpaged": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "sort",
+            "offset",
+            "pageNumber",
+            "pageSize",
+            "paged",
+            "unpaged"
+          ]
+        },
+        "totalElements": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        },
+        "last": {
+          "type": "boolean"
+        },
+        "size": {
+          "type": "integer"
+        },
+        "number": {
+          "type": "integer"
+        },
+        "sort": {
+          "type": "object",
+          "properties": {
+            "sorted": {
+              "type": "boolean"
+            },
+            "unsorted": {
+              "type": "boolean"
+            },
+            "empty": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "sorted",
+            "unsorted",
+            "empty"
+          ]
+        },
+        "numberOfElements": {
+          "type": "integer"
+        },
+        "first": {
+          "type": "boolean"
+        },
+        "empty": {
+          "type": "boolean"
+        }
+      }
+
+    }
+  },
+  "required": [
+    "mensagemUsuario",
+    "categoria",
+    "dataHora",
+    "dados"
+  ]
+}

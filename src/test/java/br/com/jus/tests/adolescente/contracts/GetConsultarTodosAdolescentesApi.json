@@ -1,0 +1,279 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "categoria": {
+      "type": "string"
+    },
+    "dados": {
+      "type": "object",
+      "properties": {
+        "content": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "certidaoNascimento": {
+                  "type": "object",
+                  "properties": {
+                    "cartorio": {
+                      "type": "string"
+                    },
+                    "folha": {
+                      "type": "string"
+                    },
+                    "livro": {
+                      "type": "string"
+                    },
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "cartorio",
+                    "folha",
+                    "livro",
+                    "numero"
+                  ]
+                },
+                "cpf": {
+                  "type": "object",
+                  "properties": {
+                    "numero": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "numero"
+                  ]
+                },
+                "dataCadastro": {
+                  "type": "string"
+                },
+                "dataCompleta21Anos": {
+                  "type": "string"
+                },
+                "dataNascimento": {
+                  "type": "string"
+                },
+                "dataNascimentoPresumida": {
+                  "type": "string"
+                },
+                "dataObito": {
+                  "type": "string"
+                },
+                "identidadeGenero": {
+                  "type": "string"
+                },
+                "identificador": {
+                  "type": "string"
+                },
+                "naturalidade": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "nomeMae": {
+                  "type": "string"
+                },
+                "nomePai": {
+                  "type": "string"
+                },
+                "nomeSocial": {
+                  "type": "string"
+                },
+                "orientacaoSexual": {
+                  "type": "string"
+                },
+                "possuiNomeSocial": {
+                  "type": "string"
+                },
+                "racaCor": {
+                  "type": "string"
+                },
+                "rg": {
+                  "type": "object",
+                  "properties": {
+                    "dataExpedicao": {
+                      "type": "string"
+                    },
+                    "estadoRg": {
+                      "type": "string"
+                    },
+                    "numero": {
+                      "type": "string"
+                    },
+                    "orgaoExpedidor": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "dataExpedicao",
+                    "estadoRg",
+                    "numero",
+                    "orgaoExpedidor"
+                  ]
+                },
+                "scoreSimilaridade": {
+                  "type": "string"
+                },
+                "sexoBiologico": {
+                  "type": "string"
+                },
+                "sobrenome": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "dataCadastro",
+                "dataCompleta21Anos",
+                "dataNascimento",
+                "dataNascimentoPresumida",
+                "identidadeGenero",
+                "identificador",
+                "naturalidade",
+                "nome",
+                "nomeMae",
+                "nomePai",
+                "nomeSocial",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "racaCor",
+                "sexoBiologico",
+                "sobrenome"
+              ]
+            }
+          ]
+        },
+        "empty": {
+          "type": "boolean"
+        },
+        "first": {
+          "type": "boolean"
+        },
+        "last": {
+          "type": "boolean"
+        },
+        "number": {
+          "type": "integer"
+        },
+        "numberOfElements": {
+          "type": "integer"
+        },
+        "pageable": {
+          "type": "object",
+          "properties": {
+            "offset": {
+              "type": "integer"
+            },
+            "pageNumber": {
+              "type": "integer"
+            },
+            "pageSize": {
+              "type": "integer"
+            },
+            "paged": {
+              "type": "boolean"
+            },
+            "sort": {
+              "type": "object",
+              "properties": {
+                "empty": {
+                  "type": "boolean"
+                },
+                "sorted": {
+                  "type": "boolean"
+                },
+                "unsorted": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "empty",
+                "sorted",
+                "unsorted"
+              ]
+            },
+            "unpaged": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "offset",
+            "pageNumber",
+            "pageSize",
+            "paged",
+            "sort",
+            "unpaged"
+          ]
+        },
+        "size": {
+          "type": "integer"
+        },
+        "sort": {
+          "type": "object",
+          "properties": {
+            "empty": {
+              "type": "boolean"
+            },
+            "sorted": {
+              "type": "boolean"
+            },
+            "unsorted": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "empty",
+            "sorted",
+            "unsorted"
+          ]
+        },
+        "totalElements": {
+          "type": "integer"
+        },
+        "totalPages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "content",
+        "empty",
+        "first",
+        "last",
+        "number",
+        "numberOfElements",
+        "pageable",
+        "size",
+        "sort",
+        "totalElements",
+        "totalPages"
+      ]
+    },
+    "dataHora": {
+      "type": "string"
+    },
+    "erros": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "mensagemDesenvolvedor": {
+      "type": "string"
+    },
+    "mensagemUsuario": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "categoria",
+    "dados",
+    "dataHora",
+    "mensagemUsuario"
+  ]
+}

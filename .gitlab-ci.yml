@@ -1,0 +1,10 @@
+stages:
+  - test
+
+Behave Test:
+  stage: test
+  script:
+  - echo "Sem script."
+  artifacts:
+    paths:
+      - socioEducativoQualidade/

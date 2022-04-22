@@ -1,0 +1,1625 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "mensagemUsuario": "Requisição efetuado com sucesso!",
+      "categoria": "CONFIRMACAO",
+      "dataHora": "10/04/2022 15:29:53",
+      "dados": {
+        "id": 13,
+        "numeroGuia": "202204100004",
+        "origemGuia": "SENTENCA_HOMOLOGATORIA",
+        "dataEmissao": "10/04/2022 15:29",
+        "tipoGuia": "DEFINITIVA",
+        "situacaoGuia": "ATIVO",
+        "dataSentenca": "14/12/2021",
+        "magistrado": "Patrick Dias Silva",
+        "serventuario": "Marcos Dias Barroso",
+        "magistradoCPF": "85124285036",
+        "serventuarioCargo": "Administrador de empresa publicas e privadas",
+        "serventuarioCPF": "12517646066",
+        "codigoTpuMedida": "11386",
+        "medida": "Advertência",
+        "adolescente": {
+          "identificador": "202200000005",
+          "dataCadastro": "07/04/2022",
+          "nome": "agdg aasdga",
+          "sobrenome": "asdgas asadgasdg",
+          "nomePai": "Masgdaasd adsgas",
+          "nomeMae": "Mdsgasdag asdg",
+          "sexoBiologico": "FEMININO",
+          "dataNascimento": "23/09/2004",
+          "dataCompleta21Anos": "23/09/2025",
+          "naturalidade": "Brasilia",
+          "dataNascimentoPresumida": "Não",
+          "racaCor": "BRANCA",
+          "orientacaoSexual": "ASSEXUAL",
+          "possuiNomeSocial": "Não",
+          "identidadeGenero": "MULHER_CIS",
+          "nomeSocial": "N",
+          "cpf": {
+            "numero": "91204895104"
+          },
+          "rg": {
+            "numero": "409527798",
+            "orgaoExpedidor": "PB",
+            "dataExpedicao": "24/09/2007",
+            "estadoRg": "DF"
+          },
+          "certidaoNascimento": {
+            "numero": "302",
+            "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+            "livro": "TESTE,TESTE,",
+            "folha": "TESTE,TESTE,"
+          }
+        },
+        "processoConhecimento": {
+          "id": 12,
+          "numeroProcesso": "00020295420138060000",
+          "orgao": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ",
+          "tribunal": {
+            "id": 2,
+            "tr": "06",
+            "nome": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ"
+          },
+          "tipoProcesso": "CONHECIMENTO",
+          "situacaoProcesso": "ATIVO",
+          "adolescente": {
+            "identificador": "202200000005",
+            "dataCadastro": "07/04/2022",
+            "nome": "agdg aasdga",
+            "sobrenome": "asdgas asadgasdg",
+            "nomePai": "Masgdaasd adsgas",
+            "nomeMae": "Mdsgasdag asdg",
+            "sexoBiologico": "FEMININO",
+            "dataNascimento": "23/09/2004",
+            "dataCompleta21Anos": "23/09/2025",
+            "naturalidade": "Brasilia",
+            "dataNascimentoPresumida": "Não",
+            "racaCor": "BRANCA",
+            "orientacaoSexual": "ASSEXUAL",
+            "possuiNomeSocial": "Não",
+            "identidadeGenero": "MULHER_CIS",
+            "nomeSocial": "N",
+            "cpf": {
+              "numero": "91204895104"
+            },
+            "rg": {
+              "numero": "409527798",
+              "orgaoExpedidor": "PB",
+              "dataExpedicao": "24/09/2007",
+              "estadoRg": "DF"
+            },
+            "certidaoNascimento": {
+              "numero": "302",
+              "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+              "livro": "TESTE,TESTE,",
+              "folha": "TESTE,TESTE,"
+            }
+          }
+        },
+        "atosInfracionais": [
+          {
+            "id": 32,
+            "descricao": "furto",
+            "codigoTpu": "63147",
+            "localFato": "Brasília DF",
+            "dataFato": "22/02/2025"
+          },
+          {
+            "id": 33,
+            "descricao": "latrocinio",
+            "codigoTpu": "63148",
+            "localFato": "Goías GO",
+            "dataFato": "22/02/2025"
+          },
+          {
+            "id": 34,
+            "descricao": "trafico",
+            "codigoTpu": "63149",
+            "localFato": "Formosa GO",
+            "dataFato": "22/02/2025"
+          }
+        ],
+        "documentosInstruirGuia": [
+          {
+            "id": 42,
+            "identificadorDocAutos": "300536333",
+            "tipoDocumento": "CPF"
+          },
+          {
+            "id": 43,
+            "identificadorDocAutos": "300536334",
+            "tipoDocumento": "Cópia do termo que propõe a remissão"
+          },
+          {
+            "id": 44,
+            "identificadorDocAutos": "300536335",
+            "tipoDocumento": "Cópia da representação"
+          }
+        ],
+        "dataTransitoJulgado": "10/04/2022"
+      }
+    }
+  ],
+  "required": [
+    "mensagemUsuario",
+    "categoria",
+    "dataHora",
+    "dados"
+  ],
+  "properties": {
+    "mensagemUsuario": {
+      "$id": "#/properties/mensagemUsuario",
+      "type": "string",
+      "title": "The mensagemUsuario schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Requisição efetuado com sucesso!"
+      ]
+    },
+    "categoria": {
+      "$id": "#/properties/categoria",
+      "type": "string",
+      "title": "The categoria schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "CONFIRMACAO"
+      ]
+    },
+    "dataHora": {
+      "$id": "#/properties/dataHora",
+      "type": "string",
+      "title": "The dataHora schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "10/04/2022 15:29:53"
+      ]
+    },
+    "dados": {
+      "$id": "#/properties/dados",
+      "type": "object",
+      "title": "The dados schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "id": 13,
+          "numeroGuia": "202204100004",
+          "origemGuia": "SENTENCA_HOMOLOGATORIA",
+          "dataEmissao": "10/04/2022 15:29",
+          "tipoGuia": "DEFINITIVA",
+          "situacaoGuia": "ATIVO",
+          "dataSentenca": "14/12/2021",
+          "magistrado": "Patrick Dias Silva",
+          "serventuario": "Marcos Dias Barroso",
+          "magistradoCPF": "85124285036",
+          "serventuarioCargo": "Administrador de empresa publicas e privadas",
+          "serventuarioCPF": "12517646066",
+          "codigoTpuMedida": "11386",
+          "medida": "Advertência",
+          "adolescente": {
+            "identificador": "202200000005",
+            "dataCadastro": "07/04/2022",
+            "nome": "agdg aasdga",
+            "sobrenome": "asdgas asadgasdg",
+            "nomePai": "Masgdaasd adsgas",
+            "nomeMae": "Mdsgasdag asdg",
+            "sexoBiologico": "FEMININO",
+            "dataNascimento": "23/09/2004",
+            "dataCompleta21Anos": "23/09/2025",
+            "naturalidade": "Brasilia",
+            "dataNascimentoPresumida": "Não",
+            "racaCor": "BRANCA",
+            "orientacaoSexual": "ASSEXUAL",
+            "possuiNomeSocial": "Não",
+            "identidadeGenero": "MULHER_CIS",
+            "nomeSocial": "N",
+            "cpf": {
+              "numero": "91204895104"
+            },
+            "rg": {
+              "numero": "409527798",
+              "orgaoExpedidor": "PB",
+              "dataExpedicao": "24/09/2007",
+              "estadoRg": "DF"
+            },
+            "certidaoNascimento": {
+              "numero": "302",
+              "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+              "livro": "TESTE,TESTE,",
+              "folha": "TESTE,TESTE,"
+            }
+          },
+          "processoConhecimento": {
+            "id": 12,
+            "numeroProcesso": "00020295420138060000",
+            "orgao": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ",
+            "tribunal": {
+              "id": 2,
+              "tr": "06",
+              "nome": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ"
+            },
+            "tipoProcesso": "CONHECIMENTO",
+            "situacaoProcesso": "ATIVO",
+            "adolescente": {
+              "identificador": "202200000005",
+              "dataCadastro": "07/04/2022",
+              "nome": "agdg aasdga",
+              "sobrenome": "asdgas asadgasdg",
+              "nomePai": "Masgdaasd adsgas",
+              "nomeMae": "Mdsgasdag asdg",
+              "sexoBiologico": "FEMININO",
+              "dataNascimento": "23/09/2004",
+              "dataCompleta21Anos": "23/09/2025",
+              "naturalidade": "Brasilia",
+              "dataNascimentoPresumida": "Não",
+              "racaCor": "BRANCA",
+              "orientacaoSexual": "ASSEXUAL",
+              "possuiNomeSocial": "Não",
+              "identidadeGenero": "MULHER_CIS",
+              "nomeSocial": "N",
+              "cpf": {
+                "numero": "91204895104"
+              },
+              "rg": {
+                "numero": "409527798",
+                "orgaoExpedidor": "PB",
+                "dataExpedicao": "24/09/2007",
+                "estadoRg": "DF"
+              },
+              "certidaoNascimento": {
+                "numero": "302",
+                "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+                "livro": "TESTE,TESTE,",
+                "folha": "TESTE,TESTE,"
+              }
+            }
+          },
+          "atosInfracionais": [
+            {
+              "id": 32,
+              "descricao": "furto",
+              "codigoTpu": "63147",
+              "localFato": "Brasília DF",
+              "dataFato": "22/02/2025"
+            },
+            {
+              "id": 33,
+              "descricao": "latrocinio",
+              "codigoTpu": "63148",
+              "localFato": "Goías GO",
+              "dataFato": "22/02/2025"
+            },
+            {
+              "id": 34,
+              "descricao": "trafico",
+              "codigoTpu": "63149",
+              "localFato": "Formosa GO",
+              "dataFato": "22/02/2025"
+            }
+          ],
+          "documentosInstruirGuia": [
+            {
+              "id": 42,
+              "identificadorDocAutos": "300536333",
+              "tipoDocumento": "CPF"
+            },
+            {
+              "id": 43,
+              "identificadorDocAutos": "300536334",
+              "tipoDocumento": "Cópia do termo que propõe a remissão"
+            },
+            {
+              "id": 44,
+              "identificadorDocAutos": "300536335",
+              "tipoDocumento": "Cópia da representação"
+            }
+          ],
+          "dataTransitoJulgado": "10/04/2022"
+        }
+      ],
+      "required": [
+        "id",
+        "numeroGuia",
+        "origemGuia",
+        "dataEmissao",
+        "tipoGuia",
+        "situacaoGuia",
+        "dataSentenca",
+        "magistrado",
+        "serventuario",
+        "magistradoCPF",
+        "serventuarioCargo",
+        "serventuarioCPF",
+        "codigoTpuMedida",
+        "medida",
+        "adolescente",
+        "processoConhecimento",
+        "atosInfracionais",
+        "documentosInstruirGuia",
+        "dataTransitoJulgado"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/dados/properties/id",
+          "type": "integer",
+          "title": "The id schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            13
+          ]
+        },
+        "numeroGuia": {
+          "$id": "#/properties/dados/properties/numeroGuia",
+          "type": "string",
+          "title": "The numeroGuia schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "202204100004"
+          ]
+        },
+        "origemGuia": {
+          "$id": "#/properties/dados/properties/origemGuia",
+          "type": "string",
+          "title": "The origemGuia schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "SENTENCA_HOMOLOGATORIA"
+          ]
+        },
+        "dataEmissao": {
+          "$id": "#/properties/dados/properties/dataEmissao",
+          "type": "string",
+          "title": "The dataEmissao schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "10/04/2022 15:29"
+          ]
+        },
+        "tipoGuia": {
+          "$id": "#/properties/dados/properties/tipoGuia",
+          "type": "string",
+          "title": "The tipoGuia schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "DEFINITIVA"
+          ]
+        },
+        "situacaoGuia": {
+          "$id": "#/properties/dados/properties/situacaoGuia",
+          "type": "string",
+          "title": "The situacaoGuia schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "ATIVO"
+          ]
+        },
+        "dataSentenca": {
+          "$id": "#/properties/dados/properties/dataSentenca",
+          "type": "string",
+          "title": "The dataSentenca schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "14/12/2021"
+          ]
+        },
+        "magistrado": {
+          "$id": "#/properties/dados/properties/magistrado",
+          "type": "string",
+          "title": "The magistrado schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Patrick Dias Silva"
+          ]
+        },
+        "serventuario": {
+          "$id": "#/properties/dados/properties/serventuario",
+          "type": "string",
+          "title": "The serventuario schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Marcos Dias Barroso"
+          ]
+        },
+        "magistradoCPF": {
+          "$id": "#/properties/dados/properties/magistradoCPF",
+          "type": "string",
+          "title": "The magistradoCPF schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "85124285036"
+          ]
+        },
+        "serventuarioCargo": {
+          "$id": "#/properties/dados/properties/serventuarioCargo",
+          "type": "string",
+          "title": "The serventuarioCargo schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Administrador de empresa publicas e privadas"
+          ]
+        },
+        "serventuarioCPF": {
+          "$id": "#/properties/dados/properties/serventuarioCPF",
+          "type": "string",
+          "title": "The serventuarioCPF schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "12517646066"
+          ]
+        },
+        "codigoTpuMedida": {
+          "$id": "#/properties/dados/properties/codigoTpuMedida",
+          "type": "string",
+          "title": "The codigoTpuMedida schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "11386"
+          ]
+        },
+        "medida": {
+          "$id": "#/properties/dados/properties/medida",
+          "type": "string",
+          "title": "The medida schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Advertência"
+          ]
+        },
+        "adolescente": {
+          "$id": "#/properties/dados/properties/adolescente",
+          "type": "object",
+          "title": "The adolescente schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "identificador": "202200000005",
+              "dataCadastro": "07/04/2022",
+              "nome": "agdg aasdga",
+              "sobrenome": "asdgas asadgasdg",
+              "nomePai": "Masgdaasd adsgas",
+              "nomeMae": "Mdsgasdag asdg",
+              "sexoBiologico": "FEMININO",
+              "dataNascimento": "23/09/2004",
+              "dataCompleta21Anos": "23/09/2025",
+              "naturalidade": "Brasilia",
+              "dataNascimentoPresumida": "Não",
+              "racaCor": "BRANCA",
+              "orientacaoSexual": "ASSEXUAL",
+              "possuiNomeSocial": "Não",
+              "identidadeGenero": "MULHER_CIS",
+              "nomeSocial": "N",
+              "cpf": {
+                "numero": "91204895104"
+              },
+              "rg": {
+                "numero": "409527798",
+                "orgaoExpedidor": "PB",
+                "dataExpedicao": "24/09/2007",
+                "estadoRg": "DF"
+              },
+              "certidaoNascimento": {
+                "numero": "302",
+                "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+                "livro": "TESTE,TESTE,",
+                "folha": "TESTE,TESTE,"
+              }
+            }
+          ],
+          "required": [
+            "identificador",
+            "dataCadastro",
+            "nome",
+            "sobrenome",
+            "nomePai",
+            "nomeMae",
+            "sexoBiologico",
+            "dataNascimento",
+            "dataCompleta21Anos",
+            "naturalidade",
+            "dataNascimentoPresumida",
+            "racaCor",
+            "orientacaoSexual",
+            "possuiNomeSocial",
+            "identidadeGenero",
+            "nomeSocial",
+            "cpf",
+            "rg",
+            "certidaoNascimento"
+          ],
+          "properties": {
+            "identificador": {
+              "$id": "#/properties/dados/properties/adolescente/properties/identificador",
+              "type": "string",
+              "title": "The identificador schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "202200000005"
+              ]
+            },
+            "dataCadastro": {
+              "$id": "#/properties/dados/properties/adolescente/properties/dataCadastro",
+              "type": "string",
+              "title": "The dataCadastro schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "07/04/2022"
+              ]
+            },
+            "nome": {
+              "$id": "#/properties/dados/properties/adolescente/properties/nome",
+              "type": "string",
+              "title": "The nome schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "agdg aasdga"
+              ]
+            },
+            "sobrenome": {
+              "$id": "#/properties/dados/properties/adolescente/properties/sobrenome",
+              "type": "string",
+              "title": "The sobrenome schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "asdgas asadgasdg"
+              ]
+            },
+            "nomePai": {
+              "$id": "#/properties/dados/properties/adolescente/properties/nomePai",
+              "type": "string",
+              "title": "The nomePai schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Masgdaasd adsgas"
+              ]
+            },
+            "nomeMae": {
+              "$id": "#/properties/dados/properties/adolescente/properties/nomeMae",
+              "type": "string",
+              "title": "The nomeMae schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Mdsgasdag asdg"
+              ]
+            },
+            "sexoBiologico": {
+              "$id": "#/properties/dados/properties/adolescente/properties/sexoBiologico",
+              "type": "string",
+              "title": "The sexoBiologico schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "FEMININO"
+              ]
+            },
+            "dataNascimento": {
+              "$id": "#/properties/dados/properties/adolescente/properties/dataNascimento",
+              "type": "string",
+              "title": "The dataNascimento schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "23/09/2004"
+              ]
+            },
+            "dataCompleta21Anos": {
+              "$id": "#/properties/dados/properties/adolescente/properties/dataCompleta21Anos",
+              "type": "string",
+              "title": "The dataCompleta21Anos schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "23/09/2025"
+              ]
+            },
+            "naturalidade": {
+              "$id": "#/properties/dados/properties/adolescente/properties/naturalidade",
+              "type": "string",
+              "title": "The naturalidade schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Brasilia"
+              ]
+            },
+            "dataNascimentoPresumida": {
+              "$id": "#/properties/dados/properties/adolescente/properties/dataNascimentoPresumida",
+              "type": "string",
+              "title": "The dataNascimentoPresumida schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Não"
+              ]
+            },
+            "racaCor": {
+              "$id": "#/properties/dados/properties/adolescente/properties/racaCor",
+              "type": "string",
+              "title": "The racaCor schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "BRANCA"
+              ]
+            },
+            "orientacaoSexual": {
+              "$id": "#/properties/dados/properties/adolescente/properties/orientacaoSexual",
+              "type": "string",
+              "title": "The orientacaoSexual schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "ASSEXUAL"
+              ]
+            },
+            "possuiNomeSocial": {
+              "$id": "#/properties/dados/properties/adolescente/properties/possuiNomeSocial",
+              "type": "string",
+              "title": "The possuiNomeSocial schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "Não"
+              ]
+            },
+            "identidadeGenero": {
+              "$id": "#/properties/dados/properties/adolescente/properties/identidadeGenero",
+              "type": "string",
+              "title": "The identidadeGenero schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "MULHER_CIS"
+              ]
+            },
+            "nomeSocial": {
+              "$id": "#/properties/dados/properties/adolescente/properties/nomeSocial",
+              "type": "string",
+              "title": "The nomeSocial schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "N"
+              ]
+            },
+            "cpf": {
+              "$id": "#/properties/dados/properties/adolescente/properties/cpf",
+              "type": "object",
+              "title": "The cpf schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "numero": "91204895104"
+                }
+              ],
+              "required": [
+                "numero"
+              ],
+              "properties": {
+                "numero": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/cpf/properties/numero",
+                  "type": "string",
+                  "title": "The numero schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "91204895104"
+                  ]
+                }
+              },
+              "additionalProperties": true
+            },
+            "rg": {
+              "$id": "#/properties/dados/properties/adolescente/properties/rg",
+              "type": "object",
+              "title": "The rg schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "numero": "409527798",
+                  "orgaoExpedidor": "PB",
+                  "dataExpedicao": "24/09/2007",
+                  "estadoRg": "DF"
+                }
+              ],
+              "required": [
+                "numero",
+                "orgaoExpedidor",
+                "dataExpedicao",
+                "estadoRg"
+              ],
+              "properties": {
+                "numero": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/rg/properties/numero",
+                  "type": "string",
+                  "title": "The numero schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "409527798"
+                  ]
+                },
+                "orgaoExpedidor": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/rg/properties/orgaoExpedidor",
+                  "type": "string",
+                  "title": "The orgaoExpedidor schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "PB"
+                  ]
+                },
+                "dataExpedicao": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/rg/properties/dataExpedicao",
+                  "type": "string",
+                  "title": "The dataExpedicao schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "24/09/2007"
+                  ]
+                },
+                "estadoRg": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/rg/properties/estadoRg",
+                  "type": "string",
+                  "title": "The estadoRg schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "DF"
+                  ]
+                }
+              },
+              "additionalProperties": true
+            },
+            "certidaoNascimento": {
+              "$id": "#/properties/dados/properties/adolescente/properties/certidaoNascimento",
+              "type": "object",
+              "title": "The certidaoNascimento schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "numero": "302",
+                  "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+                  "livro": "TESTE,TESTE,",
+                  "folha": "TESTE,TESTE,"
+                }
+              ],
+              "required": [
+                "numero",
+                "cartorio",
+                "livro",
+                "folha"
+              ],
+              "properties": {
+                "numero": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/certidaoNascimento/properties/numero",
+                  "type": "string",
+                  "title": "The numero schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "302"
+                  ]
+                },
+                "cartorio": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/certidaoNascimento/properties/cartorio",
+                  "type": "string",
+                  "title": "The cartorio schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "DEVE ACEITAR SOMENTE NÚMERICO"
+                  ]
+                },
+                "livro": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/certidaoNascimento/properties/livro",
+                  "type": "string",
+                  "title": "The livro schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "TESTE,TESTE,"
+                  ]
+                },
+                "folha": {
+                  "$id": "#/properties/dados/properties/adolescente/properties/certidaoNascimento/properties/folha",
+                  "type": "string",
+                  "title": "The folha schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "TESTE,TESTE,"
+                  ]
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "processoConhecimento": {
+          "$id": "#/properties/dados/properties/processoConhecimento",
+          "type": "object",
+          "title": "The processoConhecimento schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "id": 12,
+              "numeroProcesso": "00020295420138060000",
+              "orgao": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ",
+              "tribunal": {
+                "id": 2,
+                "tr": "06",
+                "nome": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ"
+              },
+              "tipoProcesso": "CONHECIMENTO",
+              "situacaoProcesso": "ATIVO",
+              "adolescente": {
+                "identificador": "202200000005",
+                "dataCadastro": "07/04/2022",
+                "nome": "agdg aasdga",
+                "sobrenome": "asdgas asadgasdg",
+                "nomePai": "Masgdaasd adsgas",
+                "nomeMae": "Mdsgasdag asdg",
+                "sexoBiologico": "FEMININO",
+                "dataNascimento": "23/09/2004",
+                "dataCompleta21Anos": "23/09/2025",
+                "naturalidade": "Brasilia",
+                "dataNascimentoPresumida": "Não",
+                "racaCor": "BRANCA",
+                "orientacaoSexual": "ASSEXUAL",
+                "possuiNomeSocial": "Não",
+                "identidadeGenero": "MULHER_CIS",
+                "nomeSocial": "N",
+                "cpf": {
+                  "numero": "91204895104"
+                },
+                "rg": {
+                  "numero": "409527798",
+                  "orgaoExpedidor": "PB",
+                  "dataExpedicao": "24/09/2007",
+                  "estadoRg": "DF"
+                },
+                "certidaoNascimento": {
+                  "numero": "302",
+                  "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+                  "livro": "TESTE,TESTE,",
+                  "folha": "TESTE,TESTE,"
+                }
+              }
+            }
+          ],
+          "required": [
+            "id",
+            "numeroProcesso",
+            "orgao",
+            "tribunal",
+            "tipoProcesso",
+            "situacaoProcesso",
+            "adolescente"
+          ],
+          "properties": {
+            "id": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/id",
+              "type": "integer",
+              "title": "The id schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                12
+              ]
+            },
+            "numeroProcesso": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/numeroProcesso",
+              "type": "string",
+              "title": "The numeroProcesso schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "00020295420138060000"
+              ]
+            },
+            "orgao": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/orgao",
+              "type": "string",
+              "title": "The orgao schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ"
+              ]
+            },
+            "tribunal": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/tribunal",
+              "type": "object",
+              "title": "The tribunal schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "id": 2,
+                  "tr": "06",
+                  "nome": "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ"
+                }
+              ],
+              "required": [
+                "id",
+                "tr",
+                "nome"
+              ],
+              "properties": {
+                "id": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/tribunal/properties/id",
+                  "type": "integer",
+                  "title": "The id schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": 0,
+                  "examples": [
+                    2
+                  ]
+                },
+                "tr": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/tribunal/properties/tr",
+                  "type": "string",
+                  "title": "The tr schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "06"
+                  ]
+                },
+                "nome": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/tribunal/properties/nome",
+                  "type": "string",
+                  "title": "The nome schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "TRIBUNAL DE JUSTIÇA DO ESTADO DO CEARÁ"
+                  ]
+                }
+              },
+              "additionalProperties": true
+            },
+            "tipoProcesso": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/tipoProcesso",
+              "type": "string",
+              "title": "The tipoProcesso schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "CONHECIMENTO"
+              ]
+            },
+            "situacaoProcesso": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/situacaoProcesso",
+              "type": "string",
+              "title": "The situacaoProcesso schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "ATIVO"
+              ]
+            },
+            "adolescente": {
+              "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente",
+              "type": "object",
+              "title": "The adolescente schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": {},
+              "examples": [
+                {
+                  "identificador": "202200000005",
+                  "dataCadastro": "07/04/2022",
+                  "nome": "agdg aasdga",
+                  "sobrenome": "asdgas asadgasdg",
+                  "nomePai": "Masgdaasd adsgas",
+                  "nomeMae": "Mdsgasdag asdg",
+                  "sexoBiologico": "FEMININO",
+                  "dataNascimento": "23/09/2004",
+                  "dataCompleta21Anos": "23/09/2025",
+                  "naturalidade": "Brasilia",
+                  "dataNascimentoPresumida": "Não",
+                  "racaCor": "BRANCA",
+                  "orientacaoSexual": "ASSEXUAL",
+                  "possuiNomeSocial": "Não",
+                  "identidadeGenero": "MULHER_CIS",
+                  "nomeSocial": "N",
+                  "cpf": {
+                    "numero": "91204895104"
+                  },
+                  "rg": {
+                    "numero": "409527798",
+                    "orgaoExpedidor": "PB",
+                    "dataExpedicao": "24/09/2007",
+                    "estadoRg": "DF"
+                  },
+                  "certidaoNascimento": {
+                    "numero": "302",
+                    "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+                    "livro": "TESTE,TESTE,",
+                    "folha": "TESTE,TESTE,"
+                  }
+                }
+              ],
+              "required": [
+                "identificador",
+                "dataCadastro",
+                "nome",
+                "sobrenome",
+                "nomePai",
+                "nomeMae",
+                "sexoBiologico",
+                "dataNascimento",
+                "dataCompleta21Anos",
+                "naturalidade",
+                "dataNascimentoPresumida",
+                "racaCor",
+                "orientacaoSexual",
+                "possuiNomeSocial",
+                "identidadeGenero",
+                "nomeSocial",
+                "cpf",
+                "rg",
+                "certidaoNascimento"
+              ],
+              "properties": {
+                "identificador": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/identificador",
+                  "type": "string",
+                  "title": "The identificador schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "202200000005"
+                  ]
+                },
+                "dataCadastro": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/dataCadastro",
+                  "type": "string",
+                  "title": "The dataCadastro schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "07/04/2022"
+                  ]
+                },
+                "nome": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/nome",
+                  "type": "string",
+                  "title": "The nome schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "agdg aasdga"
+                  ]
+                },
+                "sobrenome": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/sobrenome",
+                  "type": "string",
+                  "title": "The sobrenome schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "asdgas asadgasdg"
+                  ]
+                },
+                "nomePai": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/nomePai",
+                  "type": "string",
+                  "title": "The nomePai schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "Masgdaasd adsgas"
+                  ]
+                },
+                "nomeMae": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/nomeMae",
+                  "type": "string",
+                  "title": "The nomeMae schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "Mdsgasdag asdg"
+                  ]
+                },
+                "sexoBiologico": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/sexoBiologico",
+                  "type": "string",
+                  "title": "The sexoBiologico schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "FEMININO"
+                  ]
+                },
+                "dataNascimento": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/dataNascimento",
+                  "type": "string",
+                  "title": "The dataNascimento schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "23/09/2004"
+                  ]
+                },
+                "dataCompleta21Anos": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/dataCompleta21Anos",
+                  "type": "string",
+                  "title": "The dataCompleta21Anos schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "23/09/2025"
+                  ]
+                },
+                "naturalidade": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/naturalidade",
+                  "type": "string",
+                  "title": "The naturalidade schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "Brasilia"
+                  ]
+                },
+                "dataNascimentoPresumida": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/dataNascimentoPresumida",
+                  "type": "string",
+                  "title": "The dataNascimentoPresumida schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "Não"
+                  ]
+                },
+                "racaCor": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/racaCor",
+                  "type": "string",
+                  "title": "The racaCor schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "BRANCA"
+                  ]
+                },
+                "orientacaoSexual": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/orientacaoSexual",
+                  "type": "string",
+                  "title": "The orientacaoSexual schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "ASSEXUAL"
+                  ]
+                },
+                "possuiNomeSocial": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/possuiNomeSocial",
+                  "type": "string",
+                  "title": "The possuiNomeSocial schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "Não"
+                  ]
+                },
+                "identidadeGenero": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/identidadeGenero",
+                  "type": "string",
+                  "title": "The identidadeGenero schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "MULHER_CIS"
+                  ]
+                },
+                "nomeSocial": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/nomeSocial",
+                  "type": "string",
+                  "title": "The nomeSocial schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "N"
+                  ]
+                },
+                "cpf": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/cpf",
+                  "type": "object",
+                  "title": "The cpf schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": {},
+                  "examples": [
+                    {
+                      "numero": "91204895104"
+                    }
+                  ],
+                  "required": [
+                    "numero"
+                  ],
+                  "properties": {
+                    "numero": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/cpf/properties/numero",
+                      "type": "string",
+                      "title": "The numero schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "91204895104"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "rg": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/rg",
+                  "type": "object",
+                  "title": "The rg schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": {},
+                  "examples": [
+                    {
+                      "numero": "409527798",
+                      "orgaoExpedidor": "PB",
+                      "dataExpedicao": "24/09/2007",
+                      "estadoRg": "DF"
+                    }
+                  ],
+                  "required": [
+                    "numero",
+                    "orgaoExpedidor",
+                    "dataExpedicao",
+                    "estadoRg"
+                  ],
+                  "properties": {
+                    "numero": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/rg/properties/numero",
+                      "type": "string",
+                      "title": "The numero schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "409527798"
+                      ]
+                    },
+                    "orgaoExpedidor": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/rg/properties/orgaoExpedidor",
+                      "type": "string",
+                      "title": "The orgaoExpedidor schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "PB"
+                      ]
+                    },
+                    "dataExpedicao": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/rg/properties/dataExpedicao",
+                      "type": "string",
+                      "title": "The dataExpedicao schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "24/09/2007"
+                      ]
+                    },
+                    "estadoRg": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/rg/properties/estadoRg",
+                      "type": "string",
+                      "title": "The estadoRg schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "DF"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "certidaoNascimento": {
+                  "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/certidaoNascimento",
+                  "type": "object",
+                  "title": "The certidaoNascimento schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": {},
+                  "examples": [
+                    {
+                      "numero": "302",
+                      "cartorio": "DEVE ACEITAR SOMENTE NÚMERICO",
+                      "livro": "TESTE,TESTE,",
+                      "folha": "TESTE,TESTE,"
+                    }
+                  ],
+                  "required": [
+                    "numero",
+                    "cartorio",
+                    "livro",
+                    "folha"
+                  ],
+                  "properties": {
+                    "numero": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/certidaoNascimento/properties/numero",
+                      "type": "string",
+                      "title": "The numero schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "302"
+                      ]
+                    },
+                    "cartorio": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/certidaoNascimento/properties/cartorio",
+                      "type": "string",
+                      "title": "The cartorio schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "DEVE ACEITAR SOMENTE NÚMERICO"
+                      ]
+                    },
+                    "livro": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/certidaoNascimento/properties/livro",
+                      "type": "string",
+                      "title": "The livro schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "TESTE,TESTE,"
+                      ]
+                    },
+                    "folha": {
+                      "$id": "#/properties/dados/properties/processoConhecimento/properties/adolescente/properties/certidaoNascimento/properties/folha",
+                      "type": "string",
+                      "title": "The folha schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "TESTE,TESTE,"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "atosInfracionais": {
+          "$id": "#/properties/dados/properties/atosInfracionais",
+          "type": "array",
+          "title": "The atosInfracionais schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": [],
+          "examples": [
+            [
+              {
+                "id": 32,
+                "descricao": "furto",
+                "codigoTpu": "63147",
+                "localFato": "Brasília DF",
+                "dataFato": "22/02/2025"
+              },
+              {
+                "id": 33,
+                "descricao": "latrocinio",
+                "codigoTpu": "63148",
+                "localFato": "Goías GO",
+                "dataFato": "22/02/2025"
+              }
+            ]
+          ],
+          "additionalItems": true,
+          "items": {
+            "$id": "#/properties/dados/properties/atosInfracionais/items",
+            "anyOf": [
+              {
+                "$id": "#/properties/dados/properties/atosInfracionais/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "id": 32,
+                    "descricao": "furto",
+                    "codigoTpu": "63147",
+                    "localFato": "Brasília DF",
+                    "dataFato": "22/02/2025"
+                  }
+                ],
+                "required": [
+                  "id",
+                  "descricao",
+                  "codigoTpu",
+                  "localFato",
+                  "dataFato"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/dados/properties/atosInfracionais/items/anyOf/0/properties/id",
+                    "type": "integer",
+                    "title": "The id schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      32
+                    ]
+                  },
+                  "descricao": {
+                    "$id": "#/properties/dados/properties/atosInfracionais/items/anyOf/0/properties/descricao",
+                    "type": "string",
+                    "title": "The descricao schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "furto"
+                    ]
+                  },
+                  "codigoTpu": {
+                    "$id": "#/properties/dados/properties/atosInfracionais/items/anyOf/0/properties/codigoTpu",
+                    "type": "string",
+                    "title": "The codigoTpu schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "63147"
+                    ]
+                  },
+                  "localFato": {
+                    "$id": "#/properties/dados/properties/atosInfracionais/items/anyOf/0/properties/localFato",
+                    "type": "string",
+                    "title": "The localFato schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "Brasília DF"
+                    ]
+                  },
+                  "dataFato": {
+                    "$id": "#/properties/dados/properties/atosInfracionais/items/anyOf/0/properties/dataFato",
+                    "type": "string",
+                    "title": "The dataFato schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "22/02/2025"
+                    ]
+                  }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        },
+        "documentosInstruirGuia": {
+          "$id": "#/properties/dados/properties/documentosInstruirGuia",
+          "type": "array",
+          "title": "The documentosInstruirGuia schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": [],
+          "examples": [
+            [
+              {
+                "id": 42,
+                "identificadorDocAutos": "300536333",
+                "tipoDocumento": "CPF"
+              },
+              {
+                "id": 43,
+                "identificadorDocAutos": "300536334",
+                "tipoDocumento": "Cópia do termo que propõe a remissão"
+              }
+            ]
+          ],
+          "additionalItems": true,
+          "items": {
+            "$id": "#/properties/dados/properties/documentosInstruirGuia/items",
+            "anyOf": [
+              {
+                "$id": "#/properties/dados/properties/documentosInstruirGuia/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "id": 42,
+                    "identificadorDocAutos": "300536333",
+                    "tipoDocumento": "CPF"
+                  }
+                ],
+                "required": [
+                  "id",
+                  "identificadorDocAutos",
+                  "tipoDocumento"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/dados/properties/documentosInstruirGuia/items/anyOf/0/properties/id",
+                    "type": "integer",
+                    "title": "The id schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      42
+                    ]
+                  },
+                  "identificadorDocAutos": {
+                    "$id": "#/properties/dados/properties/documentosInstruirGuia/items/anyOf/0/properties/identificadorDocAutos",
+                    "type": "string",
+                    "title": "The identificadorDocAutos schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "300536333"
+                    ]
+                  },
+                  "tipoDocumento": {
+                    "$id": "#/properties/dados/properties/documentosInstruirGuia/items/anyOf/0/properties/tipoDocumento",
+                    "type": "string",
+                    "title": "The tipoDocumento schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "CPF"
+                    ]
+                  }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        },
+        "dataTransitoJulgado": {
+          "$id": "#/properties/dados/properties/dataTransitoJulgado",
+          "type": "string",
+          "title": "The dataTransitoJulgado schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "10/04/2022"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

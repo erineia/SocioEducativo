@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "certidaoNascimento": {
+      "type": "object",
+      "properties": {
+        "cartorio": {
+          "type": "string"
+        },
+        "folha": {
+          "type": "string"
+        },
+        "livro": {
+          "type": "string"
+        },
+        "numero": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cartorio",
+        "folha",
+        "livro",
+        "numero"
+      ]
+    },
+    "cpf": {
+      "type": "object",
+      "properties": {
+        "numero": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "numero"
+      ]
+    },
+    "dataNascimento": {
+      "type": "string"
+    },
+    "dataNascimentoPresumida": {
+      "type": "string"
+    },
+    "identidadeGenero": {
+      "type": "string"
+    },
+    "naturalidade": {
+      "type": "string"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "nomeMae": {
+      "type": "string"
+    },
+    "nomePai": {
+      "type": "string"
+    },
+    "nomeSocial": {
+      "type": "string"
+    },
+    "orientacaoSexual": {
+      "type": "string"
+    },
+    "possuiNomeSocial": {
+      "type": "string"
+    },
+    "racaCor": {
+      "type": "string"
+    },
+    "rg": {
+      "type": "object",
+      "properties": {
+        "dataExpedicao": {
+          "type": "string"
+        },
+        "estadoRg": {
+          "type": "string"
+        },
+        "numero": {
+          "type": "string"
+        },
+        "orgaoExpedidor": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "dataExpedicao",
+        "estadoRg",
+        "numero",
+        "orgaoExpedidor"
+      ]
+    },
+    "sexoBiologico": {
+      "type": "string"
+    },
+    "sobrenome": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "certidaoNascimento",
+    "cpf",
+    "dataNascimento",
+    "dataNascimentoPresumida",
+    "identidadeGenero",
+    "naturalidade",
+    "nome",
+    "nomeMae",
+    "nomePai",
+    "nomeSocial",
+    "orientacaoSexual",
+    "possuiNomeSocial",
+    "racaCor",
+    "rg",
+    "sexoBiologico",
+    "sobrenome"
+  ]
+}

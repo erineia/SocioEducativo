@@ -1,0 +1,32 @@
+HELP.md
+target/*
+ajcore.*
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### Java ###
+target/
+.mvn/
+src/database/log
+src/database/lib
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+logs/
